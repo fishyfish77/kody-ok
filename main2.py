@@ -2,8 +2,8 @@ import math
 PI=math.pi
 print(PI)
 
-print("a - plaskie b - bryły")
-inp = input("a / b ?")
+print("a - plaskie b - bryły c - inne wzory")
+inp = input("a / b / c ?")
 if "a" == inp:
     print('''
     a - pp kwadrratu
@@ -165,5 +165,22 @@ elif "b" == inp:
     elif inp == "G":
         r=float(input("r="))
         print(f"volKuli o promieniu r={r} = {4/3*(PI*r**3)}")
+elif inp == "c":
+    print('''
+    a - wysokosc trojkata rownobocznego
+    b - przekatna kwadratu
+    c - twierdzenie pitagorasa
+          ''')
+    inp = input("? ")
+    if inp == "a":
+        a=float(input("a="))
+        print(f"hTrojkataRownobocznego o boku {a} = {(a*math.sqrt(3))/2}")
+    elif inp == "b":
+        a=float(input("a="))
+        print(f"PrzekatnaKwadratu o boku {a} = {a*math.sqrt(2)}")
+    elif inp == "c":
+        a=float(input("a="))
+        b=float(input("b="))
+        print(f"TwierdzeniePitagorasa z bokami {a} i {b} = {(a**2)+(b**2)}")
 else:
     print("Nie ma takiej komendy")
