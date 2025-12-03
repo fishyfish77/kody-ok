@@ -21,7 +21,7 @@ xxxx()
 xxxx()
 print(HP)
 
---
+main.py
 
 from funkcje import statystyki as s
 from funkcje import ksiega_zaklec as k
