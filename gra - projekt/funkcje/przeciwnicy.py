@@ -20,7 +20,7 @@ def potwory_ruiny():
         ['zombiak', 150, 25],
         ['john pork', 200, 35],
         ['adam', 165, 20],
-        ['charlie kirk', 100, 15],
+        ['ghost', 100, 15],
         ['twin', 250, 40]
     ]
     return choice(potwory)
