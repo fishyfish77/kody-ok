@@ -1,0 +1,29 @@
+[
+    {
+        "id": 411272,
+        "name": "aaa",
+        "surname": "ccc",
+        "date of birth": "23.34.2025",
+        "grades mathematics": [],
+        "grades polish": [],
+        "grades English": []
+    },
+    {
+        "id": 70306,
+        "name": "asd",
+        "surname": "asd",
+        "date of birth": "23.232.3232",
+        "grades mathematics": [],
+        "grades polish": [],
+        "grades English": []
+    },
+    {
+        "id": 674144,
+        "name": "meowl",
+        "surname": "meowl",
+        "date of birth": "1.1.2033",
+        "grades mathematics": [],
+        "grades polish": [],
+        "grades English": []
+    }
+]

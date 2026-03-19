@@ -1,0 +1,28 @@
+import json
+
+def create_test_user():
+    return {
+        "id": None,
+        "name":None,
+        "surname":None,
+        "date of birth":None,
+        "grades mathematics": [],
+        "grades polish": [], 
+        "grades English":[]
+    }
+
+def save_data(data):
+    with open("data.json", "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4)
+
+def read_data():
+    with open("data.json", "r", encoding="utf-8") as file:
+        return json.load(file)
+
+def print_all_data(data:list[dict]):
+    for el in data:
+        print("==="*20)
+        for k,v in el.items():
+            print(f"{k} ----- {v}")
+
+
