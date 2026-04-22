@@ -8,7 +8,7 @@ def create_test_user():
         "date of birth":None,
         "grades mathematics": [],
         "grades polish": [], 
-        "grades English":[]
+        "grades english":[]
     }
 
 def save_data(data):
